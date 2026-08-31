@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIA Groupings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ===================== LOGIN PAGE ===================== -->
+    <!-- This is shown first. It has no "hidden" class, so it's visible by default. -->
+    <div id="login-page" class="page">
+        <div class="card blue-card login-card">
+
+            <h1 class="title">SIA 1 GROUP PROJECT</h1>
+            <p class="subtitle">Student Form</p>
+
+            <!-- Row 1: name fields -->
+            <div class="form-row">
+                <div class="field field-grow">
+                    <input type="text" id="lastname" placeholder="e.g. Niog">
+                    <label for="lastname">Lastname</label>
+                </div>
+                <div class="field field-grow">
+                    <input type="text" id="givenname" placeholder="e.g. Joshua Mark">
+                    <label for="givenname">Given Name</label>
+                </div>
+                <div class="field field-grow">
+                    <input type="text" id="middleinitial" placeholder="e.g. Hanna">
+                    <label for="middleinitial">Middle Initial</label>
+                </div>
+                <div class="field field-small">
+                    <input type="text" id="suffix" placeholder="Jr/Sr..">
+                    <label for="suffix">Suffix</label>
+                </div>
+            </div>
+
+            <!-- Row 2: program + section -->
+            <div class="form-row">
+                <div class="field field-wide">
+                    <input type="text" id="program" placeholder="Bachelor of Science in Information Technology">
+                    <label for="program">Program</label>
+                </div>
+                <div class="field field-medium">
+                    <input type="text" id="section" placeholder="3C">
+                    <label for="section">Section and Year</label>
+                </div>
+            </div>
+
+            <!-- Login button -->
+            <div class="form-row login-row">
+                <div class="field field-login">
+                    <button type="button" id="login-btn">LOGIN</button>
+                    <label>LOGIN</label>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ===================== SUBJECTS PAGE ===================== -->
+    <!-- This is hidden at first (class="page hidden"). main.js removes -->
+    <!-- the "hidden" class when the Login button is clicked. -->
+    <div id="subjects-page" class="page hidden">
+        <div class="card blue-card subjects-card">
+            <h2 class="subjects-title">SUBJECTS</h2>
+
+            <div class="subjects-list">
+                <p>SYSTEM INTEGRATION & ARCHITECTURE 1</p>
+                <p>CISCO 3</p>
+                <p>DATABASE MANAGEMENT 1</p>
+                <p>HUMAN COMPUTER INTERACTION</p>
+                <p>UNDERSTANDING THE SELF</p>
+                <p>LIFE AND WORKS OF RIZAL</p>
+                <p>ETHICS</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
