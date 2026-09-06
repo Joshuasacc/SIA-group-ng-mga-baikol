@@ -14,7 +14,7 @@
     <div id="login-page" class="page">
         <div class="card blue-card login-card">
 
-            <h1 class="title">SIA 1 GROUP PROJECT</h1>
+            <h1 class="title">Student Management System</h1>
             <p class="subtitle">Student Form</p>
 
             <!-- Row 1: name fields -->
@@ -36,7 +36,7 @@
                     <input type="text" id="suffix" placeholder="Jr/Sr..">
                 </div>
             </div>
-
+            
             <!-- Row 2: program + section -->
             <div class="form-row">
                 <div class="field field-wide">
@@ -68,14 +68,65 @@
             <h2 class="subjects-title">SUBJECTS</h2>
 
             <div class="subjects-list">
-                <p>SYSTEM INTEGRATION & ARCHITECTURE 1</p>
-                <p>CISCO 3</p>
-                <p>DATABASE MANAGEMENT 1</p>
-                <p>HUMAN COMPUTER INTERACTION</p>
-                <p>UNDERSTANDING THE SELF</p>
-                <p>LIFE AND WORKS OF RIZAL</p>
-                <p>ETHICS</p>
+
+                <table class="grades-table">
+
+                    <thead>
+                        <tr>
+                            <th>SUBJECT</th>
+                            <th>GRADE</th>
+                            <th>STATUS</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>SYSTEM INTEGRATION & ARCHITECTURE 1</td>
+                            <td>95</td>
+                            <td>PASSED</td>
+                        </tr>
+
+                        <tr>
+                            <td>CISCO 3</td>
+                            <td>92</td>
+                            <td>PASSED</td>
+                        </tr>
+
+                        <tr>
+                            <td>DATABASE MANAGEMENT 1</td>
+                            <td>90</td>
+                            <td>PASSED</td>
+                        </tr>
+
+                        <tr>
+                            <td>HUMAN COMPUTER INTERACTION</td>
+                            <td>94</td>
+                            <td>PASSED</td>
+                        </tr>
+
+                        <tr>
+                            <td>UNDERSTANDING THE SELF</td>
+                            <td>88</td>
+                            <td>PASSED</td>
+                        </tr>
+
+                        <tr>
+                            <td>LIFE AND WORKS OF RIZAL</td>
+                            <td>91</td>
+                            <td>PASSED</td>
+                        </tr>
+
+                        <tr>
+                            <td>ETHICS</td>
+                            <td>89</td>
+                            <td>PASSED</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+
             </div>
+            <button id="btn-logout">Logout</button>
         </div>
     </div>
 

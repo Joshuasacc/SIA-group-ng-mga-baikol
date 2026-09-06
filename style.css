@@ -97,7 +97,10 @@ body {
     color: #333;
     margin-bottom: 8px;
 }
-
+.btn-logout {
+    font-size: 24px;
+    background-color: black;
+}
 .field input::placeholder {
     color: #9a9a9a;
 }
