@@ -199,3 +199,14 @@ body {
         margin-bottom: 16px;
     }
 }
+
+#program {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 14px;
+    background-color: white;
+    margin-bottom: 8px;
+    cursor: pointer;
+}

@@ -19,7 +19,8 @@ loginbtn.addEventListener("click", function() {
         givenname.value.trim().toUpperCase() == "JOSHUA" &&
         middleinitial.value.trim().toUpperCase() == "HANNA" &&
         lastname.value.trim().toUpperCase() == "NIOG" &&
-        suffix.value.trim().toUpperCase() == "MARK"
+        suffix.value.trim().toUpperCase() == "MARK" &&
+        program.value.trim().toUpperCase() == "BSIT"
     ) {
 
         login_page.classList.add("hidden");
