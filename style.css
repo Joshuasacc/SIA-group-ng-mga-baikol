@@ -97,14 +97,27 @@ body {
     color: #333;
     margin-bottom: 8px;
 }
-.btn-logout {
-    font-size: 24px;
-    background-color: black;
+#btn-logout {
+    display: block;
+    width: 275px;
+    height: 52px;
+    margin: 25px auto;
+    
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 14px;
+    
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
 }
 .field input::placeholder {
     color: #9a9a9a;
 }
-
+.course_yr {
+    margin-bottom: 2px;
+}
 .field input:focus {
     outline: 3px solid #4d8fd6; 
 }

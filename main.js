@@ -16,10 +16,10 @@ let logoutbtn = document.querySelector("#btn-logout");
 loginbtn.addEventListener("click", function() {
 
     if (
-        givenname.value.toUpperCase() == "JOSHUA" &&
-        middleinitial.value.toUpperCase() == "HANNA" &&
-        lastname.value.toUpperCase() == "NIOG" &&
-        suffix.value.toUpperCase() == "MARK"
+        givenname.value.trim().toUpperCase() == "JOSHUA" &&
+        middleinitial.value.trim().toUpperCase() == "HANNA" &&
+        lastname.value.trim().toUpperCase() == "NIOG" &&
+        suffix.value.trim().toUpperCase() == "MARK"
     ) {
 
         login_page.classList.add("hidden");
